@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^15.7.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.15.0"
+  },
+  "scripts": {
+    "test": "npx cypress run --config viewportHeight=900,viewportWidth=1440",
+    "test:login" : "npx cypress run --spec cypress/e2e/login.cy.js --config viewportHeight=900,viewportWidth=1440",
+    "test:login:mobile" : "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414,viewportHeight=896"
+  }
+}
