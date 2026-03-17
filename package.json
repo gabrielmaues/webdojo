@@ -1,13 +1,15 @@
 {
   "devDependencies": {
-    "cypress": "^15.7.0"
+    "@faker-js/faker": "^10.3.0",
+    "cypress": "^14.3.3"
   },
   "dependencies": {
     "cypress-real-events": "^1.15.0"
   },
   "scripts": {
+    "dev": "serve -s dist -p 3000",
     "test": "npx cypress run --config viewportHeight=900,viewportWidth=1440",
-    "test:login" : "npx cypress run --spec cypress/e2e/login.cy.js --config viewportHeight=900,viewportWidth=1440",
-    "test:login:mobile" : "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414,viewportHeight=896"
+    "test:login": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportHeight=900,viewportWidth=1440",
+    "test:login:mobile": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414,viewportHeight=896"
   }
 }

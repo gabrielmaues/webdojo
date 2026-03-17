@@ -1,0 +1,15 @@
+info:
+  name: Delete an user
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:3333/api/users/1460
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
