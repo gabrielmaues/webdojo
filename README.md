@@ -1,39 +1,45 @@
-# 🥋 WebDojo
+🚀 Sobre o Projeto
 
-![WebDojo Cover](.github/cover.png)
+Este projeto faz parte do WebDojo, um ambiente prático do Curso Ninja do Cypress, ministrado pelo mestre Fernando Papito! 🥷💻
 
-## 🚀 Sobre o Projeto
+Aqui estou colocando em prática os conhecimentos adquiridos no curso, utilizando o projeto como um campo de treinamento real para evoluir em automação de testes com Cypress.
 
-O **WebDojo** é um aplicativo exclusivo para os alunos do **Curso Ninja do Cypress**, ministrado pelo mestre **Fernando Papito**! 🥷💻 Ele foi criado para ser um **campo de treinamento prático**, onde os alunos podem aprimorar suas habilidades em automação de testes com desafios e exercícios focados no **Cypress**.
+O objetivo é consolidar na prática:
+
+Escrita de testes automatizados
+
+Criação de cenários baseados em regras de negócio
+
+Interação com aplicações reais
+
+🎯 O que estou praticando
+
+✅ Automação de testes end-to-end com Cypress
+
+✅ Criação de custom commands
+
+✅ Validação de fluxos de chatbot
+
+✅ Boas práticas de QA
+
+✅ Organização de testes para facilitar manutenção
 
 🛠️ Tecnologias Utilizadas
 
-- [x] Git & GitHub 🌍 (Controle de versão e repositório remoto)
-- [x] Bash (Linha de Comando) 💻 (Execução de scripts e comandos)
-- [x] Visual Studio Code 🖥️ (Editor de código recomendado)
-- [x] Node.js (22+) 🟢 (Runtime JavaScript)
-- [x] Gerenciador de pacotes (npm ou yarn) 📦 (Dependências do projeto)
-- [x] Cypress 🧪 (Framework de testes end-to-end)
-- [x] Docker & Docker Compose 🐳 (Ambiente isolado para execução)
-- [x] PostgreSQL 🗄 (Banco de dados relacional)
-- [x] Use Bruno 🔌 (Cliente de API para testes de requisições)
+Git & GitHub 🌍
 
-## 📖 Como Usar
+Bash (Linha de Comando) 💻
 
-As instruções detalhadas de instalação e uso do **WebDojo** estão disponíveis dentro do **Curso Ninja do Cypress**.
+Visual Studio Code 🖥️
 
-🔗 **Acesse o curso e seja Ninja da Automação em Cypress!** 👉 [ninjadocypress.com.br](https://ninjadocypress.com.br)
+Node.js 🟢
 
-## ⚠️ Contribuição
+Gerenciador de pacotes (npm) 📦
 
-O **WebDojo** é um ambiente **exclusivo** para os alunos do **Curso Ninja do Cypress**, e por isso, **não aceita contribuições externas**.
+Cypress 🧪
 
-📢 Para suporte e dúvidas, utilize os canais oficiais do curso!
+Docker & Docker Compose 🐳
 
-## 🔒 Licença
+PostgreSQL 🗄
 
-Este projeto é **exclusivo para alunos** do **Curso Ninja do Cypress**. 🚫 O compartilhamento ou distribuição sem autorização é proibido.
-
-------
-
-💙 Feito com dedicação e muito café por **Fernando Papito** e a equipe do **Curso Ninja do Cypress**. 🚀🔥
+Bruno 🔌 (testes de API)
